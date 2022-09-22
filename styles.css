@@ -1,0 +1,23 @@
+body {
+    background-image: url(./Sleep_Adobe.jpg);
+}
+
+.wavy{
+    display: grid;
+    width: 240px;
+    height: 240px;
+    margin: 100px;    
+    color:  #16161f;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+}
+
+.wavy:hover {   
+    transform: skewX(20deg);
+    transition: 5s;
+    color:  #16161f;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+}
